@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4E917DA523036A089EFF2A /* Pods_HoneyDew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDCA9FC296823F6E75C1A2 /* Pods_HoneyDew.framework */; };
+		17CDCE297E6233C25A111DB2 /* Pods_HoneyDewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1F98D1A40A213AB2679BF3 /* Pods_HoneyDewUITests.framework */; };
+		AC83EE2F1ED32D6300F8AC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83EE2E1ED32D6300F8AC07 /* AppDelegate.swift */; };
+		AC83EE311ED32D6300F8AC07 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83EE301ED32D6300F8AC07 /* DetailViewController.swift */; };
+		AC83EE341ED32D6300F8AC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC83EE321ED32D6300F8AC07 /* Main.storyboard */; };
+		AC83EE361ED32D6300F8AC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83EE351ED32D6300F8AC07 /* Assets.xcassets */; };
+		AC83EE391ED32D6300F8AC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC83EE371ED32D6300F8AC07 /* LaunchScreen.storyboard */; };
+		AC83EE441ED32D6300F8AC07 /* HoneyDewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83EE431ED32D6300F8AC07 /* HoneyDewTests.swift */; };
+		AC83EE4F1ED32D6300F8AC07 /* HoneyDewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83EE4E1ED32D6300F8AC07 /* HoneyDewUITests.swift */; };
+		AC83EE5D1ED32E4300F8AC07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC83EE5C1ED32E4300F8AC07 /* GoogleService-Info.plist */; };
+		ACC0B2B81ED373D400ADFBC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0B2B71ED373D400ADFBC8 /* User.swift */; };
+		ACC0B2BA1ED3741300ADFBC8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0B2B91ED3741300ADFBC8 /* ToDo.swift */; };
+		ACC0B2BC1ED374B100ADFBC8 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0B2BB1ED374B100ADFBC8 /* List.swift */; };
+		ACC0B2BE1ED381D100ADFBC8 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0B2BD1ED381D100ADFBC8 /* MainTableViewController.swift */; };
+		D7F401D28F3021C06FC59BA9 /* Pods_HoneyDewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3467D5A9CE7F9DD08141F5 /* Pods_HoneyDewTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC83EE401ED32D6300F8AC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC83EE231ED32D6300F8AC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC83EE2A1ED32D6300F8AC07;
+			remoteInfo = HoneyDew;
+		};
+		AC83EE4B1ED32D6300F8AC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC83EE231ED32D6300F8AC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC83EE2A1ED32D6300F8AC07;
+			remoteInfo = HoneyDew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DEFDBF7A546F14E9C5CD54 /* Pods-HoneyDew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDew.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDew/Pods-HoneyDew.release.xcconfig"; sourceTree = "<group>"; };
+		0E3467D5A9CE7F9DD08141F5 /* Pods_HoneyDewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneyDewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2D5782884249A6A4AE7722 /* Pods-HoneyDewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDewTests/Pods-HoneyDewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72F14071C40EC2DBDFF9B765 /* Pods-HoneyDewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDewTests/Pods-HoneyDewTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A432E9D9AB171B24A4897D2 /* Pods-HoneyDew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDew/Pods-HoneyDew.debug.xcconfig"; sourceTree = "<group>"; };
+		961B702BE74849B73540A50A /* Pods-HoneyDewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDewUITests/Pods-HoneyDewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1F98D1A40A213AB2679BF3 /* Pods_HoneyDewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneyDewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83EE2B1ED32D6300F8AC07 /* HoneyDew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyDew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83EE2E1ED32D6300F8AC07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC83EE301ED32D6300F8AC07 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC83EE331ED32D6300F8AC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC83EE351ED32D6300F8AC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC83EE381ED32D6300F8AC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC83EE3A1ED32D6300F8AC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC83EE3F1ED32D6300F8AC07 /* HoneyDewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyDewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83EE431ED32D6300F8AC07 /* HoneyDewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyDewTests.swift; sourceTree = "<group>"; };
+		AC83EE451ED32D6300F8AC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC83EE4A1ED32D6300F8AC07 /* HoneyDewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyDewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83EE4E1ED32D6300F8AC07 /* HoneyDewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyDewUITests.swift; sourceTree = "<group>"; };
+		AC83EE501ED32D6300F8AC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC83EE5C1ED32E4300F8AC07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACC0B2B71ED373D400ADFBC8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACC0B2B91ED3741300ADFBC8 /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		ACC0B2BB1ED374B100ADFBC8 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		ACC0B2BD1ED381D100ADFBC8 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		B1DDCA9FC296823F6E75C1A2 /* Pods_HoneyDew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneyDew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B993DAF3C0B3A2C5E232A8FA /* Pods-HoneyDewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneyDewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneyDewUITests/Pods-HoneyDewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC83EE281ED32D6300F8AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4E917DA523036A089EFF2A /* Pods_HoneyDew.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE3C1ED32D6300F8AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F401D28F3021C06FC59BA9 /* Pods_HoneyDewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE471ED32D6300F8AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CDCE297E6233C25A111DB2 /* Pods_HoneyDewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08772E018FE9ED0E4D1F7882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DDCA9FC296823F6E75C1A2 /* Pods_HoneyDew.framework */,
+				0E3467D5A9CE7F9DD08141F5 /* Pods_HoneyDewTests.framework */,
+				AA1F98D1A40A213AB2679BF3 /* Pods_HoneyDewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		752B99651A1E9933B2FFA23A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A432E9D9AB171B24A4897D2 /* Pods-HoneyDew.debug.xcconfig */,
+				05DEFDBF7A546F14E9C5CD54 /* Pods-HoneyDew.release.xcconfig */,
+				3E2D5782884249A6A4AE7722 /* Pods-HoneyDewTests.debug.xcconfig */,
+				72F14071C40EC2DBDFF9B765 /* Pods-HoneyDewTests.release.xcconfig */,
+				961B702BE74849B73540A50A /* Pods-HoneyDewUITests.debug.xcconfig */,
+				B993DAF3C0B3A2C5E232A8FA /* Pods-HoneyDewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC83EE221ED32D6300F8AC07 = {
+			isa = PBXGroup;
+			children = (
+				AC83EE2D1ED32D6300F8AC07 /* HoneyDew */,
+				AC83EE421ED32D6300F8AC07 /* HoneyDewTests */,
+				AC83EE4D1ED32D6300F8AC07 /* HoneyDewUITests */,
+				AC83EE2C1ED32D6300F8AC07 /* Products */,
+				752B99651A1E9933B2FFA23A /* Pods */,
+				08772E018FE9ED0E4D1F7882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC83EE2C1ED32D6300F8AC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC83EE2B1ED32D6300F8AC07 /* HoneyDew.app */,
+				AC83EE3F1ED32D6300F8AC07 /* HoneyDewTests.xctest */,
+				AC83EE4A1ED32D6300F8AC07 /* HoneyDewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC83EE2D1ED32D6300F8AC07 /* HoneyDew */ = {
+			isa = PBXGroup;
+			children = (
+				AC83EE2E1ED32D6300F8AC07 /* AppDelegate.swift */,
+				ACC0B2BD1ED381D100ADFBC8 /* MainTableViewController.swift */,
+				AC83EE301ED32D6300F8AC07 /* DetailViewController.swift */,
+				ACC0B2B71ED373D400ADFBC8 /* User.swift */,
+				ACC0B2B91ED3741300ADFBC8 /* ToDo.swift */,
+				ACC0B2BB1ED374B100ADFBC8 /* List.swift */,
+				AC83EE321ED32D6300F8AC07 /* Main.storyboard */,
+				AC83EE351ED32D6300F8AC07 /* Assets.xcassets */,
+				AC83EE371ED32D6300F8AC07 /* LaunchScreen.storyboard */,
+				AC83EE3A1ED32D6300F8AC07 /* Info.plist */,
+				AC83EE5C1ED32E4300F8AC07 /* GoogleService-Info.plist */,
+			);
+			path = HoneyDew;
+			sourceTree = "<group>";
+		};
+		AC83EE421ED32D6300F8AC07 /* HoneyDewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC83EE431ED32D6300F8AC07 /* HoneyDewTests.swift */,
+				AC83EE451ED32D6300F8AC07 /* Info.plist */,
+			);
+			path = HoneyDewTests;
+			sourceTree = "<group>";
+		};
+		AC83EE4D1ED32D6300F8AC07 /* HoneyDewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC83EE4E1ED32D6300F8AC07 /* HoneyDewUITests.swift */,
+				AC83EE501ED32D6300F8AC07 /* Info.plist */,
+			);
+			path = HoneyDewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC83EE2A1ED32D6300F8AC07 /* HoneyDew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83EE531ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDew" */;
+			buildPhases = (
+				CB042C330F410458CE54967B /* [CP] Check Pods Manifest.lock */,
+				AC83EE271ED32D6300F8AC07 /* Sources */,
+				AC83EE281ED32D6300F8AC07 /* Frameworks */,
+				AC83EE291ED32D6300F8AC07 /* Resources */,
+				980CB40B9FA5C74825A7C74D /* [CP] Embed Pods Frameworks */,
+				2F447F22789D860BBE4318F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyDew;
+			productName = HoneyDew;
+			productReference = AC83EE2B1ED32D6300F8AC07 /* HoneyDew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC83EE3E1ED32D6300F8AC07 /* HoneyDewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83EE561ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDewTests" */;
+			buildPhases = (
+				D14C274DFD38F552EE73B4A7 /* [CP] Check Pods Manifest.lock */,
+				AC83EE3B1ED32D6300F8AC07 /* Sources */,
+				AC83EE3C1ED32D6300F8AC07 /* Frameworks */,
+				AC83EE3D1ED32D6300F8AC07 /* Resources */,
+				F369A56D9442A38992294EDD /* [CP] Embed Pods Frameworks */,
+				53AA3109FB9ACFF02A71ABB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC83EE411ED32D6300F8AC07 /* PBXTargetDependency */,
+			);
+			name = HoneyDewTests;
+			productName = HoneyDewTests;
+			productReference = AC83EE3F1ED32D6300F8AC07 /* HoneyDewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC83EE491ED32D6300F8AC07 /* HoneyDewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83EE591ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDewUITests" */;
+			buildPhases = (
+				1351BFB18E237E6C7C10D1D1 /* [CP] Check Pods Manifest.lock */,
+				AC83EE461ED32D6300F8AC07 /* Sources */,
+				AC83EE471ED32D6300F8AC07 /* Frameworks */,
+				AC83EE481ED32D6300F8AC07 /* Resources */,
+				465BA21968BE1BEFCA1FE679 /* [CP] Embed Pods Frameworks */,
+				2E998411D65431B3F2F5ABEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC83EE4C1ED32D6300F8AC07 /* PBXTargetDependency */,
+			);
+			name = HoneyDewUITests;
+			productName = HoneyDewUITests;
+			productReference = AC83EE4A1ED32D6300F8AC07 /* HoneyDewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC83EE231ED32D6300F8AC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MrAliGorithm;
+				TargetAttributes = {
+					AC83EE2A1ED32D6300F8AC07 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+					};
+					AC83EE3E1ED32D6300F8AC07 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC83EE2A1ED32D6300F8AC07;
+					};
+					AC83EE491ED32D6300F8AC07 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC83EE2A1ED32D6300F8AC07;
+					};
+				};
+			};
+			buildConfigurationList = AC83EE261ED32D6300F8AC07 /* Build configuration list for PBXProject "HoneyDew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC83EE221ED32D6300F8AC07;
+			productRefGroup = AC83EE2C1ED32D6300F8AC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC83EE2A1ED32D6300F8AC07 /* HoneyDew */,
+				AC83EE3E1ED32D6300F8AC07 /* HoneyDewTests */,
+				AC83EE491ED32D6300F8AC07 /* HoneyDewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC83EE291ED32D6300F8AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83EE391ED32D6300F8AC07 /* LaunchScreen.storyboard in Resources */,
+				AC83EE5D1ED32E4300F8AC07 /* GoogleService-Info.plist in Resources */,
+				AC83EE361ED32D6300F8AC07 /* Assets.xcassets in Resources */,
+				AC83EE341ED32D6300F8AC07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE3D1ED32D6300F8AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE481ED32D6300F8AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1351BFB18E237E6C7C10D1D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E998411D65431B3F2F5ABEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDewUITests/Pods-HoneyDewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F447F22789D860BBE4318F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDew/Pods-HoneyDew-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		465BA21968BE1BEFCA1FE679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDewUITests/Pods-HoneyDewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53AA3109FB9ACFF02A71ABB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDewTests/Pods-HoneyDewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980CB40B9FA5C74825A7C74D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDew/Pods-HoneyDew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB042C330F410458CE54967B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D14C274DFD38F552EE73B4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F369A56D9442A38992294EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneyDewTests/Pods-HoneyDewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC83EE271ED32D6300F8AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83EE311ED32D6300F8AC07 /* DetailViewController.swift in Sources */,
+				AC83EE2F1ED32D6300F8AC07 /* AppDelegate.swift in Sources */,
+				ACC0B2B81ED373D400ADFBC8 /* User.swift in Sources */,
+				ACC0B2BC1ED374B100ADFBC8 /* List.swift in Sources */,
+				ACC0B2BE1ED381D100ADFBC8 /* MainTableViewController.swift in Sources */,
+				ACC0B2BA1ED3741300ADFBC8 /* ToDo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE3B1ED32D6300F8AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83EE441ED32D6300F8AC07 /* HoneyDewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83EE461ED32D6300F8AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83EE4F1ED32D6300F8AC07 /* HoneyDewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC83EE411ED32D6300F8AC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC83EE2A1ED32D6300F8AC07 /* HoneyDew */;
+			targetProxy = AC83EE401ED32D6300F8AC07 /* PBXContainerItemProxy */;
+		};
+		AC83EE4C1ED32D6300F8AC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC83EE2A1ED32D6300F8AC07 /* HoneyDew */;
+			targetProxy = AC83EE4B1ED32D6300F8AC07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC83EE321ED32D6300F8AC07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC83EE331ED32D6300F8AC07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC83EE371ED32D6300F8AC07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC83EE381ED32D6300F8AC07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC83EE511ED32D6400F8AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC83EE521ED32D6400F8AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC83EE541ED32D6400F8AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A432E9D9AB171B24A4897D2 /* Pods-HoneyDew.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC83EE551ED32D6400F8AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DEFDBF7A546F14E9C5CD54 /* Pods-HoneyDew.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC83EE571ED32D6400F8AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2D5782884249A6A4AE7722 /* Pods-HoneyDewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyDew.app/HoneyDew";
+			};
+			name = Debug;
+		};
+		AC83EE581ED32D6400F8AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F14071C40EC2DBDFF9B765 /* Pods-HoneyDewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyDew.app/HoneyDew";
+			};
+			name = Release;
+		};
+		AC83EE5A1ED32D6400F8AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961B702BE74849B73540A50A /* Pods-HoneyDewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HoneyDew;
+			};
+			name = Debug;
+		};
+		AC83EE5B1ED32D6400F8AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B993DAF3C0B3A2C5E232A8FA /* Pods-HoneyDewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = HoneyDewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HoneyDewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HoneyDew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC83EE261ED32D6300F8AC07 /* Build configuration list for PBXProject "HoneyDew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83EE511ED32D6400F8AC07 /* Debug */,
+				AC83EE521ED32D6400F8AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83EE531ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83EE541ED32D6400F8AC07 /* Debug */,
+				AC83EE551ED32D6400F8AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83EE561ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83EE571ED32D6400F8AC07 /* Debug */,
+				AC83EE581ED32D6400F8AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83EE591ED32D6400F8AC07 /* Build configuration list for PBXNativeTarget "HoneyDewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83EE5A1ED32D6400F8AC07 /* Debug */,
+				AC83EE5B1ED32D6400F8AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC83EE231ED32D6300F8AC07 /* Project object */;
+}
